@@ -46,8 +46,11 @@ BuddyBot: Goodbye! Have a nice day!
 BuddyBot uses a simple rule-based approach to understand and respond to user queries:
 
 1️⃣ Preprocess user input (lowercasing, removing punctuation, tokenization) using NLTK
+
 2️⃣ Match input words with predefined response patterns
+
 3️⃣ Return a random response from the matching category
+
 4️⃣ If no match is found, respond with a default message like "I don't understand. Can you rephrase?"
 
 🚀 Future Improvements
